@@ -1,5 +1,5 @@
 body {
-	background: url('metaillica.jpg') no-repeat;
+	background-color: black, no-repeat;
  	background-size: cover;
 	/*background-size:75%;*/
 }
@@ -128,7 +128,7 @@ input[type=checkbox]:checked ~ #menu{
   content: "";
   display: table;
   border: 3px solid #73AD21;
-   margin: 0 auto;
+   margin: 0 auto;/**/
   
 }
 .group:after {
@@ -138,19 +138,21 @@ input[type=checkbox]:checked ~ #menu{
 .group {
   clear: both;
   *zoom: 1;
-  border: 3px solid #73AD21;
+/*  border: 3px solid #73AD21;*/
 }
 section {
   float: left;
   margin: 0 1.5%;
   width: 63%;
-  border: 3px solid #73AD21;
+ /* border: 3px solid #73AD21;*/
+	background-color: black;
 }
 aside {
   float: right;
   margin: 0 1.5%;
   width: 30%;
-  border: 3px solid #73AD21;
+ /* border: 3px solid #73AD21;*/
+	background-color: black;
 }
 
 
@@ -158,6 +160,7 @@ aside {
         padding-top: 60px;
         padding-bottom: 40px;
         color: green;
+	 background-color: black;
     }
     .fixed-header, .fixed-footer{
         width: 100%;
